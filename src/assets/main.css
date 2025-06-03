@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+}
+
+body {
+    background-color: rgba(161, 199, 224, 0.089);
+}
+
+.dark body {
+    background-color: hsl(60, 4%, 10%); 
+}
+
+a, h1, p {
+    color: black;
+}
+
+.dark a,
+.dark h1,
+.dark p {
+    color: rgb(255, 255, 255);
+}
+
+
+html, body {
+    height: 100%;
+    overflow: hidden; /* Butun sahifa scrollini bloklash */
+  }
+  
+  #app, .layout-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-wrapper {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-gutter: stable;
+  }
+  
+  /* Scrollbarni chiroyli qilish */
+  .content-wrapper::-webkit-scrollbar {
+    width: 4px;
+    display: none;
+  }
+  
+  .content-wrapper::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .content-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .content-wrapper::-webkit-scrollbar-track {
+      background: #2c2c2c;
+    }
+  
+    .content-wrapper::-webkit-scrollbar-thumb {
+      background: #555;
+    }
+  
+    .content-wrapper::-webkit-scrollbar-thumb:hover {
+      background: #777;
+    }
+  }
+  
+
+
