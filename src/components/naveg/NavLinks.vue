@@ -11,16 +11,7 @@
     </router-link>
 
     <router-link
-      to="/about"
-      class="nav-link"
-      :class="{ 'active': route.path === '/about' }"
-    >
-      <font-awesome-icon :icon="['fas', 'user-circle']" class="w-4 h-4" />
-      {{ $t("About") }}
-    </router-link>
-
-    <router-link
-      to="/"
+      to="about"
       class="nav-link"
       
     >
@@ -34,7 +25,7 @@
       
     >
     <font-awesome-icon :icon="['fab', 'blogger-b']" class="w-4 h-4" />
-      {{ $t("Services") }}
+      {{ $t("Blog") }}
     </router-link>
   </div>
 </template>

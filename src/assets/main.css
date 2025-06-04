@@ -18,11 +18,12 @@ body {
     background-color: hsl(60, 4%, 10%); 
 }
 
-a, h1, p {
+a, h1, p, li {
     color: black;
 }
 
 .dark a,
+.dark li,
 .dark h1,
 .dark p {
     color: rgb(255, 255, 255);

@@ -1,8 +1,10 @@
 {
   "myabout": "I am a full-stack developer with 3 years of experience. My goal is to work on large-scale projects, achieve great results in the field of software development, and become one of the leading developers in the region.",
+  "upwork":"I have worked with several real clients on the Upwork platform and successfully completed multiple projects based on Django (Python). Although I haven’t worked extensively on Upwork, I have applied to many projects and engaged with clients to understand their needs deeply. My work has mainly involved building backend systems, creating REST APIs, working with databases, and implementing user authentication.",
   "myname": "Akhmadov Mirjakhon",
   "Home": "Home",
   "About": "About",
   "Works": "Works",
-  "Services": "Services"
+  "Services": "Services",
+  "Blog":"Блог"
 }
