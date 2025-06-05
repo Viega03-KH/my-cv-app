@@ -6,5 +6,17 @@
   "About": "About",
   "Works": "Works",
   "Services": "Services",
-  "Blog":"Блог"
+  "Blog":"Блог",
+  "fullStackDeveloper": "Full-stack Developer",
+  "summary": "Summary",
+  "professionalExperience": "Professional Experience",
+  "hardwareAndSoftware": "Hardware and Software MJCH • Frontend Developer",
+  "mjchFrontendDeveloper": "MJCH • Frontend Developer",
+  "upworkFullstackDeveloper": "Upwork • Full-stack Developer",
+  "shdpiEngineer": "Shahrisabz State Pedagogical Institute • Engineer",
+  "education": "Education",
+  "tktiShahrisabz": "Tashkent Institute of Chemical Technology, Shahrisabz Branch",
+  "contact": "Contact",
+  "clickToContact": "Click to contact or",
+  "phoneNumber": "Phone"
 }

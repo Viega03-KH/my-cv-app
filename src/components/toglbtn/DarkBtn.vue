@@ -1,9 +1,15 @@
 <script setup>
+  import { createPinia } from 'pinia'
   import { ref, onMounted } from 'vue'
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
   import { library } from '@fortawesome/fontawesome-svg-core'
   import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
-  
+  import { useLoaderStore } from '@/stores/loader'
+
+  const pinia = createPinia()
+  const loaderStore = useLoaderStore()
+
+
   library.add(faSun, faMoon)
   
   const isDark = ref(false)
@@ -13,9 +19,17 @@
     if (isDark.value) {
       document.documentElement.classList.add('dark')
       localStorage.setItem('theme', 'dark')
+      loaderStore.show()
+      setTimeout(() => {
+      loaderStore.hide()
+      }, 800) 
     } else {
       document.documentElement.classList.remove('dark')
       localStorage.setItem('theme', 'light')
+      loaderStore.show()
+      setTimeout(() => {
+      loaderStore.hide()
+      }, 800) 
     }
   }
   

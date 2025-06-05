@@ -6,5 +6,17 @@
   "About": "О нас",
   "Works": "Проекты",
   "Services": "Услуги",
-  "Blog":"Blog"
+  "Blog":"Blog",
+  "fullStackDeveloper": "Full-stack разработчик",
+   "summary": "Резюме",
+   "professionalExperience": "Профессиональный опыт",
+   "hardwareAndSoftware": "Hardware and Software MJCH • Frontend разработчик",
+   "mjchFrontendDeveloper": "MJCH • Frontend разработчик",
+   "upworkFullstackDeveloper": "Upwork • Full-stack разработчик",
+   "shdpiEngineer": "Шахрисабзский государственный педагогический институт • Инженер",
+   "education": "Образование",
+   "tktiShahrisabz": "Ташкентский химико-технологический институт, филиал в Шахрисабзе",
+   "contact": "Связаться",
+   "clickToContact": "Нажмите, чтобы связаться, или",
+   "phoneNumber": "Тел"
 }

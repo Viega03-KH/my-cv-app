@@ -21,7 +21,7 @@
         </div>        
         <div class="md:w-full text-center md:text-left md:pl-8">
           <h2 class="text-3xl md:text-4xl font-extrabold mb-2 uppercase">{{ $t("myname") }}</h2>
-          <h2 class="text-xl md:text-2xl font-bold mb-4">Full-stack Developer</h2>
+          <h2 class="text-xl md:text-2xl font-bold mb-4">{{ $t("fullStackDeveloper") }}</h2>
 
           <div class="flex flex-wrap justify-center md:justify-start gap-3">
             <div
@@ -35,7 +35,9 @@
                 :icon="contact.icon"
                 class="h-4 w-4 mr-2"
               />
-              <span class="text-sm">{{ contact.text }}</span>
+              <a :href="contact.text"
+              target="_blank"
+              rel="noopener noreferrer" class="text-sm">{{ contact.url }}</a>
             </div>
           </div>
         </div>
@@ -66,11 +68,9 @@ function onImageLoad() {
 }
 
 const contacts = [
-  { icon: ['fab', 'telegram'], text: 'Khan_0529' },
-  { icon: ['fab', 'github'], text: 'github.com/yourprofile' },
-  { icon: ['fab', 'instagram'], text: 'instagram.com/yourchannel' },
-  { icon: ['fab', 'linkedin'], text: 'linkedin.com/in/umairarshad-dev' },
-  { icon: ['fab', 'linkedin'], text: 'linkedin.com/in/umairarshad-dev' },
+  { icon: ['fab', 'telegram'], text: 'https://t.me/Khan_0529', url: 'Telegram' },
+  { icon: ['fab', 'github'], text: 'https://github.com/Viega03-KH', url: 'Github' },
+  { icon: ['fab', 'instagram'], text: 'https://instagram.com/khan0.503', url:'Instagram' },
 ]
 </script>
 

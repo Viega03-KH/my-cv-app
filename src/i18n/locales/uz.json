@@ -1,10 +1,23 @@
 {
   "myabout": "Men 3 yillik tajribaga ega full-stack dasturchiman. Kelajakda yirik loyihalar ustida ishlash, dasturlash sohasida katta natijalarga erishish va mintaqadagi kuchli dasturchilar safidan o‘rin olishni maqsad qilganman.",
+  "upwork":"Men Upwork platformasida bir nechta real mijozlar bilan ishlaganman va ko‘proq Django (Python) asosidagi loyihalarni muvaffaqiyatli bajarganman. Garchi Upwork’da ko‘p ishlamagan bo‘lsam ham, ko‘plab loyihalarga topshirib ko‘rganman va mijozlar bilan muloqot qilib, ehtiyojlarini chuqur tushunganman. Loyihalarda asosan backend tizimlarini yaratish, REST API qurish, ma'lumotlar bazasi bilan ishlash va foydalanuvchi autentifikatsiyasi kabi vazifalarni bajarganman.",
   "myname": "Akhmadov Mirjakhon",
   "Home": "Uy",
   "About": "Biz haqimizda",
   "Works": "Loyihalar",
   "Services": "Xizmatlar",
-    "Blog":"Blog"
+  "Blog":"Blog",
+  "fullStackDeveloper": "Full-stack dasturchi",
+  "summary": "Summary",
+  "professionalExperience": "Kasbiy tajriba",
+  "hardwareAndSoftware": "Hardware and Software MJCH • Frontend dasturchi",
+  "mjchFrontendDeveloper": "MJCH • Frontend dasturchi",
+  "upworkFullstackDeveloper": "Upwork • Full-stack dasturchi",
+  "shdpiEngineer": "Shahrisabz davlat pedagogika instituti • Muhandis",
+  "education": "Ta'lim",
+  "tktiShahrisabz": "Toshkent kimyo texnologiya instituti Shahrisabz filiali",
+  "contact": "Bog‘lanish",
+  "clickToContact": "Bog‘lanish uchun bosing yoki",
+  "phoneNumber": "Tel"
 
 }

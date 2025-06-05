@@ -7,7 +7,7 @@
 
     <!-- Programming Languages -->
     <h1 class="text-md font-semibold mb-4">Languages</h1>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 place-items: center;">
       <!-- Python -->
       <div class="skill-card">
         <font-awesome-icon :icon="['fab', 'python']" class="text-green-600 text-5xl mb-3" />
@@ -38,7 +38,11 @@
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <!-- Django -->
       <div class="skill-card">
-        <font-awesome-icon :icon="['fab', 'python']" class="text-green-600 text-5xl mb-3" />
+        <img
+          src="https://www.svgrepo.com/show/373554/django.svg"
+          alt="Tailwind CSS"
+          class="w-12 h-12 mb-3"
+        />
         <span class="skill-name">Django</span>
       </div>
 

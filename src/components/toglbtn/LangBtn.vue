@@ -9,10 +9,15 @@
 </template>
 
 <script setup>
+import { createPinia } from 'pinia'
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useLangStore } from '@/stores/lang'
 import { NDropdown, NButton } from 'naive-ui'
+import { useLoaderStore } from '@/stores/loader'
+
+  const pinia = createPinia()
+  const loaderStore = useLoaderStore()
 
 const { locale } = useI18n()
 const langStore = useLangStore()
@@ -29,6 +34,10 @@ const options = [
 
 // Tilni almashtirish funksiyasi
 const changeLang = (key) => {
+  loaderStore.show()
+      setTimeout(() => {
+      loaderStore.hide()
+      }, 800) 
   locale.value = key
   langStore.setLang(key)
 }
